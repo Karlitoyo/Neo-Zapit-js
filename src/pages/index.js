@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import AboutSection from '../components/AboutSection'
-import { homeObjOne } from '../components/AboutSection/Data'
+import { homeObjOne, homeObjThree, homeObjTwo } from '../components/AboutSection/Data'
+import Footer from '../components/Footer.js'
 import HeroSection from '../components/HeroSection'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
@@ -18,6 +19,9 @@ const Home = () => {
            <Navbar toggle={toggle} />
            <HeroSection />
            <AboutSection {...homeObjOne}/>
+           <AboutSection {...homeObjTwo}/>
+           <AboutSection {...homeObjThree}/>
+           <Footer />
         </React.Fragment>
     );
 }
