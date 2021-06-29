@@ -25,9 +25,14 @@ const HeroSection = () => {
                     Peer to Peer Finance
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button to="wallet"
+                    <Button to="/wallet"
                     onMouseEnter={onHover}
-                    onMpouseLeave={onHover}>
+                    onMpouseLeave={onHover}
+                    smooth={true} 
+                    duration={500} 
+                    spy={true} 
+                    exact="true" 
+                    offset={-80}>
                         Connect Wallet {hover ?
                          <ArrowForward /> :
                           <ArrowRight />}

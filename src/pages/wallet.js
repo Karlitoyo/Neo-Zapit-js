@@ -1,9 +1,12 @@
 import React from 'react'
+import scrollToTop from '../components/ScrollToTop'
+import SignIn from '../components/Signin'
 
 const Wallet = () => {
     return (
         <div>
-            <h1>Sign In</h1>
+            <scrollToTop />
+            <SignIn />
         </div>
     )
 }
