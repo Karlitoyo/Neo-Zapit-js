@@ -2,8 +2,8 @@
 
 
 Neo-Zapit is designed at its core to be simplistic and user friendly with the capability to allow borrowers and lenders to leverage their assets
-to create an easier system within the crypto space. Currently individuals have a lenghty process to exit the market and some do not wish to
-sell their positions for loss. Neo-Zapit will allow them to lock their tokens at an agreed amount and make regular payments to recieve their 
+to create an easier platform to leverage assets within the crypto eco-system. Currently individuals have a lenghty process to exit the market and in many instances do not wish to
+sell their positions for loss or for percieved loss. Neo-Zapit will allow them to lock their tokens at an agreed amount and make regular payments to recieve their 
 assets back at the loan price. This can create a scenario whereby should the asset increase to a greater amount than originally agreed the 
 borrower can still relaise the value which the lender recieves the interest agreed + original capital.
 
