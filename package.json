@@ -7,14 +7,10 @@
   },
   "private": true,
   "dependencies": {
-    "@react-native-async-storage/async-storage": "^1.15.5",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "@tradle/react-native-http": "^2.0.0",
-    "@walletconnect/client": "^1.4.1",
-    "@walletconnect/qrcode-modal": "^1.4.1",
-    "@walletconnect/react-native-dapp": "^1.4.1",
     "browserify-zlib": "~0.1.4",
     "dns.js": "^1.0.1",
     "events": "^1.0.0",
@@ -28,7 +24,6 @@
     "react-native-level-fs": "^3.0.0",
     "react-native-os": "^1.0.1",
     "react-native-randombytes": "^3.0.0",
-    "react-native-svg": "^9.13.6",
     "react-native-tcp": "^3.2.1",
     "react-native-udp": "^2.1.0",
     "react-router-dom": "^5.2.0",
@@ -119,5 +114,8 @@
     "tty": "tty-browserify",
     "vm": "vm-browserify",
     "tls": false
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.2"
   }
 }

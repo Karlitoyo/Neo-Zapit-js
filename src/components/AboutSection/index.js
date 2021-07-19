@@ -17,7 +17,7 @@ const AboutSection = ({lightBg, id, imgStart, img, darkText, topLine, descriptio
                             <Heading lightText={lightText}>{headline}</Heading>
                             <SubTitle darkText={darkText}>{description}</SubTitle>
                             <BtnWrap>
-                                <Button to="home" 
+                                <Button to="/wallet" 
                                 smooth={true} 
                                 duration={500} 
                                 spy={true} 
